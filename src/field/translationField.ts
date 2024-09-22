@@ -30,7 +30,7 @@ export function translationField<ListTypeInfo extends BaseListTypeInfo>({
           defaultJSON: config.defaultJSON,
           displayMode: ui?.displayMode ?? "input",
           isExpandable: ui?.isExpandable,
-          enableTranslator: config.enableTranslator,
+          enableTranslation: config.enableTranslation,
         };
       },
       hooks: {

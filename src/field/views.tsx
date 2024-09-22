@@ -114,7 +114,7 @@ export function Field({
     });
     onChange?.({
       ...value,
-      translations: { ...translatedValues.data.translatedValues },
+      translations: { ...translatedValues.data?.translatedValues },
     });
   }, [value, locales]);
 
@@ -134,7 +134,7 @@ export function Field({
             {isExpanded ? "Collapse" : "Expand"}
           </Button>
         )}
-        {field.fieldMeta.enableTranslator && (
+        {field.fieldMeta.enableTranslation && (
           <Button style={styles.syncButton} onClick={onSyncLocales}>
             Translate
           </Button>

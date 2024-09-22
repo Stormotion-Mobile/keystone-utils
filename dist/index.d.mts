@@ -8,10 +8,9 @@ type TextFieldConfig<ListTypeInfo extends BaseListTypeInfo> = CommonFieldConfig<
     ui?: {
         displayMode?: DisplayMode;
         isExpandable?: boolean;
-        enableTranslator?: boolean;
     };
     defaultJSON?: JSONValue;
-    enableTranslator?: boolean;
+    enableTranslation?: boolean;
 };
 
 declare function translation<ListTypeInfo extends BaseListTypeInfo>(config?: TextFieldConfig<ListTypeInfo>): FieldTypeFunc<ListTypeInfo>;

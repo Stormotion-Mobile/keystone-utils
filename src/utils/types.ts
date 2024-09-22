@@ -17,7 +17,7 @@ export type TranslationFieldMeta = {
   displayMode: DisplayMode;
   defaultJSON?: JSONValue;
   isExpandable?: boolean;
-  enableTranslator?: boolean;
+  enableTranslation?: boolean;
 };
 
 export type TextFieldConfig<ListTypeInfo extends BaseListTypeInfo> =
@@ -26,8 +26,7 @@ export type TextFieldConfig<ListTypeInfo extends BaseListTypeInfo> =
     ui?: {
       displayMode?: DisplayMode;
       isExpandable?: boolean;
-      enableTranslator?: boolean;
     };
     defaultJSON?: JSONValue;
-    enableTranslator?: boolean;
+    enableTranslation?: boolean;
   };
