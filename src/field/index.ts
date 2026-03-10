@@ -5,5 +5,8 @@ import { TextFieldConfig } from "../utils/types";
 export function translation<ListTypeInfo extends BaseListTypeInfo>(
   config: TextFieldConfig<ListTypeInfo> = {}
 ): FieldTypeFunc<ListTypeInfo> {
-  return translationField({ ...config, views: "./translation-field/views" });
+  return translationField({
+    ...config,
+    views: "keystone-localization/src/field/views",
+  });
 }
