@@ -7,7 +7,7 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ntlkkkk/keystone-localization.git"
+    "url": "git+https://github.com/Stormotion-Mobile/keystone-utils.git"
   },
   "keywords": [
     "keystone"
@@ -15,9 +15,9 @@
   "author": "Stormotion",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ntlkkkk/keystone-localization/issues"
+    "url": "https://github.com/Stormotion-Mobile/keystone-utils/issues"
   },
-  "homepage": "https://github.com/ntlkkkk/keystone-localization#readme",
+  "homepage": "https://github.com/Stormotion-Mobile/keystone-utils#readme",
   "devDependencies": {
     "@types/ramda": "^0.30.2",
     "@types/uuid": "^10.0.0",
